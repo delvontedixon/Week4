@@ -2,8 +2,8 @@ console.log("Hello!");
 var num1 = 25;
 var num2 = 18;
 var num3 = 43; //number of apples
-
-if (num1 == num2) {
+console.log(num1 === 25 && num2 === 5);
+if (num1 === 25 && num2 === 17) {
   console.log("A");
 }
 //beginning of else if statement
